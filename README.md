@@ -16,11 +16,11 @@ If you are using Linux or macOS you can use the official installer using a termi
 
 As always you should use you package manager to install software:
 
-#### Debian, Ubuntu, etc.
+##### Debian, Ubuntu, etc.
 
 `sudo apt install rust`
 
-#### Archlinux 
+##### Archlinux 
 
 ` sudo pacman -S rust`
 
