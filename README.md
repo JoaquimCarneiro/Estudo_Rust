@@ -10,25 +10,25 @@ This git repository is simply my personal notes, as I introduce my self to the R
 
 If you are using Linux or macOS you can use the official installer using a terminal and curl:
 
-` curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh`
+`curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh`
 
 ### Linux
 
-As always you should use you package manager to install software:
+As always you should use your package manager to install software:
 
-##### Debian, Ubuntu, etc.
+##### - Debian, Ubuntu, etc.
 
 `sudo apt install rust`
 
-##### Archlinux 
+##### - Archlinux 
 
-` sudo pacman -S rust`
+`sudo pacman -S rust`
 
 ### macOS
 
 Rust can also be installed by using [homebrew](https://brew.sh/) in a terminal:
 
-` brew install rust`
+`brew install rust`
 
 ### Windows
 
@@ -40,7 +40,17 @@ Rust also needs a linker in Linux and macOS. In Linux this can be achieved by in
 
 `xcode-select --install`
 
+## Hello World...
+
+
+
+## Cargo
+
+
+
 ## Basic concepts
+
+
 
 ## Bibliography and resources
 
