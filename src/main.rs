@@ -1,3 +1,3 @@
-fn main () {
-    println!("Hello? is it me you are looking for?");
+fn main() {
+    println!("not hello world");
 }
