@@ -20,7 +20,7 @@ As always you should use your package manager to install software:
 
 `sudo apt install rust`
 
-##### - Archlinux 
+##### - Archlinux
 
 `sudo pacman -S rust`
 
@@ -32,7 +32,7 @@ Rust can also be installed by using [homebrew](https://brew.sh/) in a terminal:
 
 ### Windows
 
-User of windows should already know how to install software... ❤️😚
+Users of windows should already know how to install software... ❤️😚
 
 ### The linker
 
@@ -55,6 +55,3 @@ Rust also needs a linker in Linux and macOS. In Linux this can be achieved by in
 ## Bibliography and resources
 
 - [Rust language website](https://rust-lang.org/)
-
-
-
