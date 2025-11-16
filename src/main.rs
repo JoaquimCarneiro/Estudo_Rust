@@ -1,4 +1,6 @@
 fn main() {
+    // #### Variables, mutability, shadowing and constants ####
+    //
     // Variables are imutable by default
     let y = 10;
     // y = 15; //this causes a compile error.
