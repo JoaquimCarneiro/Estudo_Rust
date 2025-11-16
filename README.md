@@ -14,7 +14,7 @@ If you are using Linux or macOS you can use the official installer using a termi
 
 ### Linux
 
-As always you should use your package manager to install software:
+As always, you should use your package manager to install software:
 
 ##### - Debian, Ubuntu, etc.
 
@@ -36,19 +36,49 @@ Users of windows should already know how to install software... ❤️😚
 
 ### The linker
 
-Rust also needs a linker in Linux and macOS. In Linux this can be achieved by installing a C compiler like GCC or Clang. In macOS a C compiler can be obtained by using xcode in a terminal:
+Rust also needs a linker in Linux and macOS. This can be achieved by installing a C compiler like GCC or Clang. 
+
+Usually, in Linux, an C compiler is already installed. In a terminal type `gcc --version` or `clang --version` to check if it is installed. If you get an error, proceed installing GCC or Clang.
+
+In macOS a C compiler can be obtained by using xcode in a terminal:
 
 `xcode-select --install`
 
 ## Hello World...
 
+```rust
+fn main () {
+    println!("Hello? is it me you are looking for?");
+}
+```
 
+[todo]
+
+- File creation convention 
+- code description
+- compile procedure using rustc
 
 ## Cargo
 
+[todo]
 
+- cargo description and uses
 
 ## Basic concepts
+
+This kind of concepts, like defining variables, functions and control flow, are common to most programming languages.
+
+As in other languages, Rust has a set o reserved keywords, that can not be used for naming variables, constants or functions.
+
+### Variables and mutability
+
+By default variables in Rust are immutable.
+
+### constants
+
+
+
+### shadowing
 
 
 
