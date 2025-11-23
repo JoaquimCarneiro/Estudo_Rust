@@ -19,4 +19,16 @@ fn main() {
     const THREE_HOURS_IN_SECONDS: u32 = 3 * 60 * 60;
     println!("Three hours in seconds = {}", THREE_HOURS_IN_SECONDS);
     // #### Shadowing ####
+    let z = 5;
+
+    let z = z + 1; // z is shadowed and it's 6 now
+
+    {
+        let mut z = z * 2; // in this scope z is shadowed and it's 12 now
+        println!("The value of z in the inner scope is: {z}");
+        z = z + 1;
+        println!("The value of z in the inner scope is: {z}");
+    }
+    // outside the previous scope the value is ummutable and returns to 6
+    println!("The value of x is: {z}");
 }
