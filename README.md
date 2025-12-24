@@ -24,7 +24,31 @@ As always, you should use your package manager to install software:
 
 ##### 1.1.2.2 - Archlinux
 
-`sudo pacman -S rust`
+The two main ways to install Rust are:
+
+- The Native installation, recommended if you only use Rust for building or installing software made with Rust
+- The Rustup installation, recommended if you intend to program anything in Rust
+
+If you opt by going with the native installation, you should at least install:
+
+- rust - package containing the compiler, cargo, and other base tools
+- rust-src - Source code for the Rust standard library
+
+`sudo pacman -S rust rust-src`
+
+The minimal requirements to start, is to install the package `rust`. It contains the basic tools needed to start programming in Rust.
+
+If you choose to go with the `rustup` option, first you need to install it:
+
+`sudo pacman -S rustup`
+
+and then chose between stable, beta, nightly or a numbered version, like 1.83.0:
+
+`rustup default stable`
+
+`rustup toolchain install stable`
+
+
 
 #### 1.1.3 - macOS
 
@@ -227,3 +251,4 @@ using `mut` in this case would result in a compile error:
 ## A - Bibliography and resources
 
 - [Rust language website](https://rust-lang.org/)
+- [Arch Linux Wiki](https://wiki.archlinux.org/title/Rust)
